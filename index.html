@@ -300,8 +300,8 @@
           opts.zoneID = 1238026;
           opts.extClickID = clickID;
           opts.subID1 = sourceID;
-          opts.actions.onPermissionGranted = () => { window.location.replace("https://tkr3.surpriseanddelightgifts.com/cool.php?lp=1"); };
-          opts.actions.onPermissionDenied = () => { window.location.replace("https://tkr3.surpriseanddelightgifts.com/cool.php?lp=2"); };
+          opts.actions.onPermissionGranted = () => { window.location.replace("https://tkr3.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=1"); };
+          opts.actions.onPermissionDenied = () => { window.location.replace("https://tkr3.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=2"); };
           opts.actions.onAlreadySubscribed = () => {};
           opts.actions.onError = () => {};
       };
@@ -336,7 +336,7 @@
 
 <script>
     var cta = 'mainButton';
-    var back = 'https://tkr3.surpriseanddelightgifts.com/cool.php?lp=3';
+    var back = 'https://tkr3.surpriseanddelightgifts.com/cool.php?lp=1&to_offer=3';
     //var under = 'https://google.com';
 </script>
 <script src="https://backunder.com/script.js"></script>
